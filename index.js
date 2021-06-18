@@ -18,20 +18,20 @@ appDiv.innerHTML = `<h1>JS Starter</h1>`;
 // var d = c + b;
 // console.log(d);
 
-// var a = 1;
-// var b = '1';
-// if (a == b) {
-//   console.log('true');
-// } else {
-//   console.log('false');
-// }
-
-function abc() {
-  var a = 10;
-  var b = 10;
-  if (a == 10) {
-    let b = a + 10;
-  }
-  console.log(b);
+var a = 1;
+var b = '1';
+if (a == b) {
+  console.log('true');
+} else {
+  console.log('false');
 }
-abc();
+
+// function abc() {
+//   var a = 10;
+//   var b = 10;
+//   if (a == 10) {
+//     let b = a + 10;
+//   }
+//   console.log(b);
+// }
+// abc();

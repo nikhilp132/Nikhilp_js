@@ -19,10 +19,10 @@ appDiv.innerHTML = `<h1>JS Starter</h1>`;
 
 // console.log(d);
 
-// var a = 2;
-// var b = 1;
+var a = 1;
+var b = '1';
 
-if (a === b) {
+if (a == b) {
   console.log('true');
 } else {
   console.log('false');

@@ -28,12 +28,14 @@ appDiv.innerHTML = `<h1>JS Starter</h1>`;
 
 // (a == b?console.log('true'):console.log('false'))
 
-// function abc() {
-//   var a = 10;
-//   var b = 10;
-//   if (a == 10) {
-//     let b = a + 10;
-//   }
-//   console.log(b);
-// }
-// abc();
+var a = 10;
+var b = 10;
+
+function abc() {
+  if (a == 10) {
+    let b = a + 10;
+  }
+  console.log(b);
+}
+
+abc();

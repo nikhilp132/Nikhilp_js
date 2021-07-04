@@ -28,14 +28,38 @@ appDiv.innerHTML = `<h1>JS Starter</h1>`;
 
 // (a == b?console.log('true'):console.log('false'))
 
-var a = 10;
-var b = 10;
+// var a = 10;
+// var b = 10;
 
-function abc() {
-  if (a == 10) {
-    let b = a + 10;
-  }
-  console.log(b);
+// function abc() {
+//   if (a == 10) {
+//     let b = a + 10;
+//   }
+//   console.log(b);
+// }
+
+// abc();
+
+// const person = {
+//   firstName: 'John',
+//   lastName: 'Doe',
+//   id: 5566,
+//   fullName: function() {
+//     return person.firstName;
+//   }
+// };
+
+// person.age = 30;
+// var fun = person.fullName;
+// console.log(person);
+
+function emp(id, name, salary) {
+  this.id = id;
+  this.name = name;
+  this.salary = salary;
 }
+var e = new emp(103, 'Vimal Jaiswal');
 
-abc();
+document.write(e.id + ' ' + e.name + ' ' + e.salary);
+
+console.log(e);

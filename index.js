@@ -58,7 +58,7 @@ function emp(id, name, salary) {
   this.name = name;
   this.salary = salary;
 }
-var e = new emp(103, 'Vimal Jaiswal');
+var e = new emp(103, 'Vimal Jaiswal', 20000);
 
 document.write(e.id + ' ' + e.name + ' ' + e.salary);
 

@@ -53,13 +53,13 @@ appDiv.innerHTML = `<h1>JS Starter</h1>`;
 // var fun = person.fullName;
 // console.log(person);
 
-function emp(id, name, salary) {
-  this.id = id;
-  this.name = name;
-  this.salary = salary;
-}
-var e = new emp(103, 'Vimal Jaiswal', 20000);
+// function emp(id, name, salary) {
+//   this.id = id;
+//   this.name = name;
+//   this.salary = salary;
+// }
+// var e = new emp(103, 'Vimal Jaiswal', 20000);
 
-document.write(e.id + ' ' + e.name + ' ' + e.salary);
+// document.write(e.id + ' ' + e.name + ' ' + e.salary);
 
-console.log(e);
+// console.log(e);

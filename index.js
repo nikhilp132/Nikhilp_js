@@ -66,7 +66,7 @@ appDiv.innerHTML = `<h1>JS Starter</h1>`;
 
 var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-var input = prompt('Enter a value');
+// var input = prompt('Enter a value');
 
 var isPresent = arr.find(function(item) {
   return item == input;

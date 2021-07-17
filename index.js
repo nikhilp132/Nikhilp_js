@@ -63,3 +63,18 @@ appDiv.innerHTML = `<h1>JS Starter</h1>`;
 // document.write(e.id + ' ' + e.name + ' ' + e.salary);
 
 // console.log(e);
+
+var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+var input = prompt('Enter a value');
+
+var isPresent = arr.find(function(item) {
+  return item == input;
+});
+
+// console.log(isPresent);
+if (isPresent !== undefined) {
+  alert('Welcome to the Party');
+} else {
+  alert('Sorry, Your name is not on the list');
+}
